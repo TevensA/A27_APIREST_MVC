@@ -34,6 +34,11 @@ const options = {
     servers: [
       {
         url: "http://localhost:3000",
+        description: "Servidor local"
+      },
+      {
+        url: "https://a27-apirest-mvc.onrender.com",
+        description: "Servidor Render"
       },
     ],
   },
